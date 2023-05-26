@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    font-family: 'Lobster', cursive;;
+    font-size: 1.5em;
+    background-color: rgba(151, 240, 210, 0.363);
+}
+
+.contenedor{
+    width: 90%;
+    margin: 3px auto;
+}
+
+
+nav{
+    padding-left: 600px;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:7px 35px;
+    background-color:rgb(167, 14, 238);
+    border:2px solid rgb(252, 252, 252);
+    text-align:center;
+    color:#fff;
+  
+    
+    }
+ nav li:hover{
+    background-color:rgb(187, 130, 204);
+    color:#000;
+    
+ }
+
+
+header{
+    background-image:url('../imagenes/as.jpg');
+    height: 300px;
+    width: 100%;
+    padding-top:30px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: black;
+    opacity: 0.7;
+    font-size: 40px;
+}
+
+#izquierdo{
+    float: left;
+    width: 50%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: justify;
+   
+    
+}
+
+
+#derecho{
+    float: left;
+    width: 50%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-image: url('../imagenes/mor.jpg');
+    opacity: 0.7;
+    border-radius: 10px;
+    color: white;
+   
+
+}
+
+#izquierdo1{
+    float: left;
+    width: 28%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    padding-bottom: 20px;
+   
+    
+}
+#principal{
+    float: left;
+    width: 45%;  
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 5px silver solid;
+   text-align: justify;
+   
+}
+
+#derecho1{
+    float: left;
+    width: 27%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-image: url('../imagenes/acua.jpg');
+    opacity: 0.7;
+    color: white;
+    text-align: justify;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px ;
+    background-color: mediumorchid;
+}
